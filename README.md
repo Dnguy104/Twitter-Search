@@ -1,4 +1,6 @@
-Instructions for system deployment:
+**Part 1**
+
+**Instructions for system deployment:**
 
 1. Install python
 
