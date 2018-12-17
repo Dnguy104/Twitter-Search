@@ -1,0 +1,63 @@
+@import './../_variables.scss';
+
+body {
+  margin: 0px;
+}
+
+ .NavBar {
+   width: 100%;
+   top: 0;
+   height: 75px;
+   background-color: ghostwhite;
+   -webkit-box-shadow: 0px 2px 1px 0px rgba(102, 93, 93, 0.15);
+   -moz-box-shadow: 0px 2px 1px 0px rgba(102, 93, 93, 0.15);
+   box-shadow: 0px 2px 1px 0px rgba(102, 93, 93, 0.15);
+
+   .tempLogo {
+     left: 10px;
+     top: 20px;
+     font-size: 25px;
+     position: relative;
+     width: 200px;
+   }
+
+   .searchBar {
+     display: table;
+     margin: 0 auto;
+     .find {
+       width: auto;
+       color: $containerGrey;
+       border-radius: 8px;
+       border-color: $containerGrey;
+       border-width: 1.5px;
+       border-style: solid;
+       background-color: ghostwhite;
+       padding: 7px;
+       transition: all 150ms ease-in-out;
+       &:hover {
+         background-color: $containerGrey;
+         cursor: pointer;
+         color: ghostwhite;
+       }
+       &:focus {
+         outline: none;
+       }
+     }
+    .search {
+      width: 200px;
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      border-width: 1px;
+      border-color: $containerGrey;
+      padding-left: 15px;
+      float: left;
+      &:focus {
+        outline: none;
+      }
+    }
+
+   }
+
+ }

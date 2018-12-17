@@ -1,0 +1,42 @@
+@import './../../_variables.scss';
+
+ .searchBar {
+   display: table;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -37px;
+   .find {
+     width: auto;
+     color: $containerGrey;
+     border-radius: 8px;
+     border-color: $containerGrey;
+     border-width: 1.5px;
+     border-style: solid;
+     background-color: ghostwhite;
+     padding: 7px;
+     transition: all 150ms ease-in-out;
+     &:hover {
+       background-color: $containerGrey;
+       cursor: pointer;
+       color: ghostwhite;
+     }
+     &:focus {
+       outline: none;
+     }
+   }
+  .search {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: $containerGrey;
+    padding-left: 15px;
+    float: left;
+    &:focus {
+      outline: none;
+    }
+  }
+
+ }
